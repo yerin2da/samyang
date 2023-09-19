@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* 공동서식 common.css */
+
+/* 헤더 서식 */
+header{
+    background: #FF6A00;
+}
+.lnb{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.lnb a{
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+label.fa-search{
+    color: #8A4821;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #5D5E5E;
+}
+
+input[type=text], #search:focus{
+    border: none;
+    outline: none}
+
+label.fa-bars{
+    color: #fff;
+}
+/* gnd 서식 */
+.gnb p{
+    color: #fff;
+    display: block;
+}
+.sub a{ 
+    color: #333;
+}
+
+
+/* 전체메뉴 아이콘 등 숨기기 */
+label.fa-bars, i.fa-times, fieldset > label span, i.fa-circle-plus, #toggle, legend, input[type=radio], input[type*=checkbox]{display: none;}
+
+label[for*=btn]{
+    display: none;
+}
+
+
+/* 메인 공통서식 */
+
+section > h2, .m_slide > h2{display: none;}
+.c_btn{
+    display: flex;
+    justify-content: center;
+}
+.c_btn > li{
+    background: #e4e3df;
+    width: 100px;
+    height: 5px;
+    margin: 50px 10px;
+}
+.on{
+    background: #f6ddb4 !important;
+}
+
+
+
+
+/* 슬라이드 버튼 */
+/* .slide_btn > a{
+    color: #e4e4e4;
+}
+.slide_btn:hover a{
+    color: #fff0e3;
+} */
+
+
+/* 삼양신제품 */
+.product_img li{
+    background: #fff;
+        border: 1px solid #fff;
+        box-shadow: 0 1px 1px 1px #e4e3df;
+}
+.n_product .title{
+    color: #ff6a00;
+}
+.n_product p{
+    color: #333;
+}
+
+/* 삼양제품소개 */
+.product > p{
+    color: #ff6a00;
+}
+label[for*=product] p{
+    color: #606161;
+}
+p.title{
+    color: #333;
+}
+.product_i li{
+    border: 1px solid #e0e0e0;}
+.product_i li:last-child{
+    background: #fff;
+}
+
+
+
+
+/* 지속가능경영 */
+.esg{background: #EEF1F7;}
+.esg a{color: #fff;}
+
+/* sns */
+.sns_icon > h3{
+    display: none;
+}
+.button{
+    /* background: #f6f6f6; */
+    background: #afafaf;
+    /* color: #b4b5b4; */
+    border: 1px solid #f6f6f6;
+    transition: 0.4s;
+}
+.button a{
+    color: #f3f3f3;
+}
+
+.sns_photo{
+    display: none;
+    }
+input[type=radio]:checked + label[for*=tab]{
+    background: #FBCF58;
+}
+#tab01:checked ~ .youtube{display: flex;}
+#tab02:checked ~ .instagram{display: flex;}
+#tab03:checked ~ .facebook{display: flex;}
+#tab04:checked ~ .blog{display: flex;}
+.button > a{display: block;}
+
+/* 푸터서식 */
+footer{
+    background: #333;
+}
+.f_nav a{
+    /* color: #9F9E9E; */
+    color: #d3d3d3;
+}
+#f_s, #f_s2{
+    outline: none;
+    text-align: center;
+    color: #5D5E5E;
+    cursor: pointer;
+}
+
+.f_bottom{
+    color: #afafaf;
+}
+.f_copySns{
+    color: #afafaf;
+}

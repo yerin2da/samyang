@@ -1,7 +1,6 @@
-
 @charset "utf-8";
 /* pc해상도 pc.css */
-@media screen and (min-width:1025px){
+/* @media screen and (min-width:1025px){ */
     .tablet{
         display: none;
     }
@@ -63,16 +62,12 @@
     }
 
     .gnb{
-        /* background: linear-gradient(#FF6A00 48px,#faedde 48px, #faedde); */
         height: 48px;
-        /* overflow: hidden; */
         transition: 0.4s;
         font-weight: bold;
         background: #FF6A00;
     }
-    /* .gnb:hover{
-        height: 380px;
-    } */
+    
     .gnb > ul{
         width: 1100px;
         margin: 0px auto;
@@ -157,12 +152,8 @@
     width: 100%;
     height: 700px;
     }
-    .product_img{
-        /* position: absolute;top:0px;기본 (-467) - (50px) */
-    }
     .product_img > h3{
         padding-top: 140px;
-        /* padding-bottom: 50px; */
         margin-bottom: 70px;
         font-size: 30px;
         text-align: center;
@@ -183,7 +174,6 @@
         transition: 0.3s;
     }
     .product_img > ul > li:hover {border: 1px solid #ffb47f;}
-    
     
     .product_img p{
     font-size: 16px;
@@ -241,16 +231,15 @@
         box-shadow: 0px 0px 3px rgba(255,106,0,0.5);
     } 
 
-    #product01, #product02, #product03, #product04 {cursor:pointer;}
+    #product01, #product02, #product03, #product04 {
+        cursor:pointer;}
 
 
     .product_intro> img { /* 삼양 제품소개 회색 배경 */
         position: absolute;
         width: 100%; height: 160px;
-        /* border: 1px solid red; */
         bottom: 276px;
         z-index: -1;
-        /* z-index: 1; */
     }
     .p_i { /* 삼양 제품소개 그릇라면 이미지 */
         background: url(../images/bg_main3.png) no-repeat;
@@ -258,11 +247,11 @@
     }
     
     
-    .p_i> label p{/*라면, 스낵 글자*/
+    .p_i> label span{/*라면, 스낵 글자*/
         text-align: center;
+        display: block;
         padding: 14px 0px;
         font-size: 16px;
-        /* background: red; */
         
     }
     .product_i { /*제품들 아이콘 이미지*/
@@ -302,7 +291,7 @@
     #product01:checked + label[for=product01] img{
         display: none;
     }
-    #product01:checked + label[for=product01]>p{
+    #product01:checked + label[for=product01]>span{
         position: relative;top: 83px;
     }
     
@@ -311,7 +300,7 @@
 
 
 
-    #product02:checked + label[for=product02], #product02:checked ~ p{
+    #product02:checked + label[for=product02], #product02:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover02.png);
         position: relative;top: -83px;
@@ -320,7 +309,7 @@
     #product02:checked + label[for=product02] img{
         display: none;
     }
-    #product02:checked + label[for=product02]>p{
+    #product02:checked + label[for=product02]>span{
         position: relative;top: 83px;
     }
 
@@ -328,7 +317,7 @@
 
 
 
-    #product03:checked + label[for=product03], #product03:checked ~ p{
+    #product03:checked + label[for=product03], #product03:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover03.png);
         position: relative;top: -83px;
@@ -337,7 +326,7 @@
     #product03:checked + label[for=product03] img{
         display: none;
     }
-    #product03:checked + label[for=product03]>p{
+    #product03:checked + label[for=product03]>span{
         position: relative;top: 83px;
     }
 
@@ -345,7 +334,7 @@
 
 
 
-    #product04:checked + label[for=product04], #product04:checked ~ p{
+    #product04:checked + label[for=product04], #product04:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover04.png);
         position: relative;top: -83px;
@@ -354,7 +343,7 @@
     #product04:checked + label[for=product04] img{
         display: none;
     }
-    #product04:checked + label[for=product04]>p{
+    #product04:checked + label[for=product04]>span{
         position: relative;top: 83px;
     }
 
@@ -414,7 +403,7 @@
     .esg .swiper-slide-active img {
         filter: brightness(70%);
         transition: 0.5s;
-        transform: scale(1.3);
+        scale: 1.3;
     }
     .esg .swiper-slide-active p{
         font-size: 30px;
@@ -480,7 +469,7 @@
         filter: brightness(1.2);
     }
     .sns_photo li:hover p{
-        text-decoration: underline #b8b8b8 ;
+        text-decoration: underline #b8b8b8;
     }
     .sns_photo img{
         width: 100%;
@@ -601,4 +590,4 @@
     .esgSlide .swiper-button-next, .esgSlide .swiper-button-prev {
         background: #000;
     }
-}
+/* } */

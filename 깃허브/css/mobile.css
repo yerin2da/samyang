@@ -292,13 +292,11 @@
     .product_intro{
         position: relative;
         top: 113px;
-        /* 기본78px */
     }
     .product {
         text-align: center;
     }
     .product > h3 {
-        /* padding-top: 50px; */
         padding-bottom: 10px;
         font-size: 1.875rem;
     }
@@ -331,8 +329,9 @@
         width: 100%;
         text-align: center;
     }
-    .p_i> label p{/*라면, 스낵 글자*/
-       padding: 10px 0px;
+    .p_i> label span{/*라면, 스낵 글자*/
+        padding: 10px 0px;
+        display: block;
     }
     .product_i { /*제품들  회색 배경의 아이콘 이미지*/
         background: #F7F7F7;
@@ -364,28 +363,28 @@
     #product03:checked ~ .milk{display: flex;}
     #product04:checked ~ .sauce{display: flex;}
 
-    #product01:checked + label[for=product01], #product01:checked ~ p{
+    #product01:checked + label[for=product01], #product01:checked ~ span{
         color: #FF6A00;font-weight: bold;
         background-image: url(../images/ico_main3_hover01.png);
         background-size: contain;
         
         border: 1px solid rgba(255,106,0,0.5); 
     }
-    #product02:checked + label[for=product02], #product02:checked ~ p{
+    #product02:checked + label[for=product02], #product02:checked ~ span{
         color: #FF6A00;font-weight: bold;
         background-image: url(../images/ico_main3_hover02.png);
         border: 1px solid rgba(255,106,0,0.5);
         background-size: contain;
 
     }
-    #product03:checked + label[for=product03], #product03:checked ~ p{
+    #product03:checked + label[for=product03], #product03:checked ~ span{
         color: #FF6A00;font-weight: bold;
         background-image: url(../images/ico_main3_hover03.png);
         border: 1px solid rgba(255,106,0,0.5);
         background-size: contain;
 
     }
-    #product04:checked + label[for=product04], #product04:checked ~ p{
+    #product04:checked + label[for=product04], #product04:checked ~ span{
         color: #FF6A00;font-weight: bold;
         background-image: url(../images/ico_main3_hover04.png);
         border: 1px solid rgba(255,106,0,0.5);

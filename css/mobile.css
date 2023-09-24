@@ -7,7 +7,7 @@
     }
     body{
         -ms-overflow-style:none;
-        scrollbar-width: none;
+        /* scrollbar-width: none; */
     }
 
     /* 헤더 서식 시작 */

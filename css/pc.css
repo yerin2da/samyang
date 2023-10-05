@@ -352,71 +352,72 @@
 
 
 
-    /* 지속가능경영 슬라이드 */
-    .esgSlide2, .esgSlide3{
-        display: none;
-    }
-    .esg{
-        position: relative;top: -138px;/*기본-278*/
-        height: 600px;
-    }
-    .sustain_esg {
-        width: 100%;
-        margin: 0px auto;
-    }
-    .esgSlide {
-        width: 1180px;
-    }
-    .esgSlide .swiper-slide {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .esgSlide .swiper-slide > a{
-        width: 323px;height: 329px;
-        overflow: hidden;
-    }
-    .esgSlide .swiper-slide img {
-        border-radius: 10px;
-        width: 100%;
-        display: block;
-        transition: 0.4s;
-        object-fit: cover;
-    }
-    .esgSlide .swiper-slide p{
-        font-size: 20px;
-        transition: 0.4s;
-    }
+        /* 지속가능경영 슬라이드 */
+        .esgSlide2, .esgSlide3{
+            display: none;
+        }
+        .esg{
+            position: relative;top: -138px;/*기본-278*/
+            height: 600px;
+            /* border: 1px solid #000; */
+        }
+        .sustain_esg {
+            width: 100%;
+            margin: 0px auto;
+        }
+        .esgSlide {
+            width: 1180px;
+        }
+        .esgSlide swiper-slide {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .esgSlide swiper-slide > a{
+            width: 323px;height: 329px;
+            overflow: hidden;
+        }
+        .esgSlide swiper-slide img {
+            border-radius: 10px;
+            width: 100%;
+            display: block;
+            transition: 0.4s;
+            object-fit: cover;
+        }
+        .esgSlide swiper-slide p{
+            font-size: 20px;
+            transition: 0.4s;
+        }
 
-    .esg .swiper-slide div {
-        padding: 80px;
-    } 
-    .esg .swiper-slide-active img {
-        filter: brightness(70%);
-        transition: 0.5s;
-        transform: scale(1.3);
-    }
-    .esg .swiper-slide-active p{
+        .esg swiper-slide div {
+            padding: 80px;
+        } 
+        .esg .swiper-slide-active img {
+            filter: brightness(70%);
+            transition: 0.5s;
+            transform: scale(1.3);
+        }
+        .esg .swiper-slide-active p{
+            font-size: 30px;
+        }
+        
+    
+        
+        
+        /* 지속가능 경영 글자서식 시작 */
+        .sustain_esg > h3{
         font-size: 30px;
-    }
-    
-
-    
-    
-    /* 지속가능 경영 글자서식 시작 */
-    .sustain_esg > h3{
-    font-size: 30px;
-    text-align: center;
-    padding-top: 50px;
-    margin-bottom: 20px;
-    
-    }
-    .sustain_esg p{
-    font-size: 20px;
-    text-align: center;
-    position: relative;top: -250px;
-    } 
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 20px;
+        
+        }
+        .sustain_esg p{
+        font-size: 20px;
+        text-align: center;
+        position: relative;top: -250px;
+        } 
 
 
 

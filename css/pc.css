@@ -62,16 +62,12 @@
     }
 
     .gnb{
-        /* background: linear-gradient(#FF6A00 48px,#faedde 48px, #faedde); */
         height: 48px;
-        /* overflow: hidden; */
         transition: 0.4s;
         font-weight: bold;
         background: #FF6A00;
     }
-    /* .gnb:hover{
-        height: 380px;
-    } */
+   
     .gnb > ul{
         width: 1100px;
         margin: 0px auto;
@@ -141,9 +137,6 @@
    
     .n_product{
         width: 100%;
-        /* height: 375px; */
-        /* background-image: url(../images/bg_main2.jpg); */
-        /* background-size: contain; */
         position: relative;
     }
     .n_product> img{/*배경이미지*/
@@ -156,9 +149,7 @@
     width: 100%;
     height: 700px;
     }
-    .product_img{
-        /* position: absolute;top:0px;기본 (-467) - (50px) */
-    }
+
     .product_img > h3{
         padding-top: 140px;
         /* padding-bottom: 50px; */
@@ -204,7 +195,7 @@
 
     /* 삼양 제품 소개하기 */
     .product_intro{
-        margin-top: 88px;/*-bg이미지일때기본이110//  그냥 이미지일때 기본-52px*/
+        margin-top: 88px;
         position: relative;top: 0;
         width: 100%;height: 700px;
         
@@ -246,10 +237,8 @@
     .product_intro> img { /* 삼양 제품소개 회색 배경 */
         position: absolute;
         width: 100%; height: 160px;
-        /* border: 1px solid red; */
         bottom: 276px;
         z-index: -1;
-        /* z-index: 1; */
     }
     .p_i { /* 삼양 제품소개 그릇라면 이미지 */
         background: url(../images/bg_main3.png) no-repeat;
@@ -257,11 +246,11 @@
     }
     
     
-    .p_i> label p{/*라면, 스낵 글자*/
+    .p_i> label span{/*라면, 스낵 글자*/
+        display: block;
         text-align: center;
         padding: 14px 0px;
         font-size: 16px;
-        /* background: red; */
         
     }
     .product_i { /*제품들 아이콘 이미지*/
@@ -301,7 +290,7 @@
     #product01:checked + label[for=product01] img{
         display: none;
     }
-    #product01:checked + label[for=product01]>p{
+    #product01:checked + label[for=product01]>span{
         position: relative;top: 83px;
     }
     
@@ -310,7 +299,7 @@
 
 
 
-    #product02:checked + label[for=product02], #product02:checked ~ p{
+    #product02:checked + label[for=product02], #product02:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover02.png);
         position: relative;top: -83px;
@@ -319,7 +308,7 @@
     #product02:checked + label[for=product02] img{
         display: none;
     }
-    #product02:checked + label[for=product02]>p{
+    #product02:checked + label[for=product02]>span{
         position: relative;top: 83px;
     }
 
@@ -327,7 +316,7 @@
 
 
 
-    #product03:checked + label[for=product03], #product03:checked ~ p{
+    #product03:checked + label[for=product03], #product03:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover03.png);
         position: relative;top: -83px;
@@ -336,7 +325,7 @@
     #product03:checked + label[for=product03] img{
         display: none;
     }
-    #product03:checked + label[for=product03]>p{
+    #product03:checked + label[for=product03]>span{
         position: relative;top: 83px;
     }
 
@@ -344,7 +333,7 @@
 
 
 
-    #product04:checked + label[for=product04], #product04:checked ~ p{
+    #product04:checked + label[for=product04], #product04:checked ~ span{
         font-weight: 600;width: 80px;height: 80px;
         background-image: url(../images/ico_main3_hover04.png);
         position: relative;top: -83px;
@@ -353,7 +342,7 @@
     #product04:checked + label[for=product04] img{
         display: none;
     }
-    #product04:checked + label[for=product04]>p{
+    #product04:checked + label[for=product04]>span{
         position: relative;top: 83px;
     }
 

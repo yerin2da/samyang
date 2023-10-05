@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 아이폰에서 숫자가 전화번호로 인식해서 어둡게 나오는 것을 방지 -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- 파비콘 이미지 삽입하기 -->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/ico_favicon_xoV_icon.ico">
+    
+    <title>삼양식품 &#124; 회사소개</title>
+    <!-- 1. 초기화 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <!-- 2. 기본서식 -->
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+    <!-- 3. 공통서식 -->
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <!-- 4. pc해상도일 때 적용되는 서식 -->
+    <link rel="stylesheet" href="./css/pc.css" type="text/css">
+    <!-- 5. tablet해상도일 때 적용되는 서식 -->
+    <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+    <!-- 6. mobile해상도 일 때 적용되는 서식 -->
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+    <!-- 7. 아이콘폰트 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css">
+    <!-- 8. 스와이퍼 -->
+    <link rel="stylesheet" href="./css/swiper.css" type="text/css">
+    <!-- 9. 제이쿼리 -->
+	<script src="./script/swiper.js"></script>
+
+    <!-- 10. 접두사를 자동으로 붙여주는 스크립트 -->
+    <link rel="stylesheet" href="./script/prefixfree.min.js">
+
+</head>
+<body>
+    <!-- 검색폼 -->
+    <form action="search.php" name="검색" method="post"> 
+        <input type="checkbox" id="toggle" name="a">     
+        <!-- 헤더 영역 시작 -->
+        <header>
+            <div class="h_top">
+                <h1>
+                    <a href="index.html"><img src="./images/h1_logo.png" alt="삼양로고"></a>
+                </h1>               
+                <nav class="lnb">
+                    <a href="https://brand.naver.com/syfoodshop" title="쇼핑몰 바로가기" target="_blank">쇼핑몰</a>
+                </nav>
+                <fieldset>
+                    <legend>검색폼</legend>
+                        <input type="text" id="search" placeholder="검색어를 입력하세요" maxlength="50">
+                        <label for="search" class="fas fa-search">
+                            <span>검색버튼</span>
+                        </label>                
+                </fieldset>
+            </div><!--//h_top end-->
+
+            <!-- 전체메뉴 아이콘 -->
+            <label class="fas fa-bars" for="toggle"></label>
+            
+            <!-- 메인 2단 내비게이션 -->
+            <div class="h_bottom">
+                <!--닫기 아이콘  -->
+                <label class="close_btn" for="toggle"><i class="fas fa-times"></i></label>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <p>삼양식품</p>
+                            <input type="checkbox" name="b" id="plus1">
+                            <label for="plus1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            </label>
+                            <ul class="sub sub01">
+                                <li><a href="#" title="삼양식품">삼양식품</a></li>
+                                <li><a href="#" title="지주사">지주사</a></li>
+                                <li><a href="#" title="계열사">계열사</a></li>
+                                <li><a href="#" title="해외법인">해외법인</a></li>
+                                <li><a href="#" title="공장">공장</a></li>
+                                <li><a href="#" title="오시는길">오시는길</a></li>  
+                            </ul>
+                        </li>
+                        <li>
+                            <p>홍보관</p>
+                            <input type="checkbox" name="b" id="plus2">
+                            <label for="plus2">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            </label>
+                                <ul class="sub sub02">
+                                    <li><a href="#" title="삼양소식">삼양소식</a></li>
+                                    <li><a href="#" title="홍보영상">홍보영상</a></li>
+                                    <li><a href="#" title="호치와 친구들">호치와 친구들</a></li>
+                                    <li><a href="#" title="음원/영상">음원/영상</a></li>
+                                    <li><a href="#" title="엠버서더">엠버서더</a></li>
+                                    <li><a href="#" title="레시피">레시피</a></li>  
+                                </ul>
+                            
+                        </li>
+                        <li>
+                            <p>지속가능경영</p>
+                            <input type="checkbox" name="b" id="plus3">
+                            <label for="plus3">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            </label>
+                                <ul class="sub sub03">
+                                    <li><a href="#" title="안전보건환경">안전보건환경</a></li>
+                                    <li><a href="#" title="윤리·인권경영">윤리·인권경영</a></li>
+                                    <li><a href="#" title="소비자중심경영">소비자중심경영</a></li>
+                                    <li><a href="#" title="사회공헌">사회공헌</a></li>
+                                    <li><a href="#" title="지배구조">지배구조</a></li>
+                                </ul>
+                            
+                        </li>
+                        <li>
+                            <p>제품</p>
+                            <input type="checkbox" name="b" id="plus4">
+                            <label for="plus4">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            </label>
+                                <ul class="sub sub04">
+                                    <li><a href="#" title="라면">라면</a></li>
+                                    <li><a href="#" title="스낵">스낵</a></li>
+                                    <li><a href="#" title="유제품">유제품</a></li>
+                                    <li><a href="#" title="소스·간편식">소스·간편식</a></li>
+                                </ul>
+                            
+                        </li>
+                        <li>
+                            <p>고객지원</p>
+                            <input type="checkbox" name="b" id="plus5">
+                            <label for="plus5">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </label>
+                            <ul class="sub sub05">
+                                <li><a href="#" title="고객만족센터">고객만족센터</a></li>
+                                <li><a href="#" title="고객문의">고객문의</a></li>
+                                <li><a href="#" title="FAQ">FAQ</a></li>  
+                            </ul>                              
+                        </li>
+                    </ul>
+                </nav>
+            </div><!--//h_bottom end-->
+        </header>
+
+        <!-- 메인 영역 시작 -->
+        <main>
+            <!-- 인포 소개 배경 영역 -->
+            <section>
+                <img src="./images/info_bg.jpg" alt="인포메이션 회사소개 배경이미지">
+                <article>
+                    <ul>
+                        <li>삼양식품(주)</li>
+                        <li>&#124;</li>
+                        <li><strong>회사소개</strong></li>
+                        <li>‘정직과 신용’이라는 창업정신을 바탕에 둔 삼양식품의 기업 활동을 소개합니다.</li>
+                    </ul>
+                    <img src="./images/info_ramen.png" alt="최초의 삼양라면">
+                </article>
+            </section>
+
+            <!-- 인포메이션 내비 -->
+            <ul class="info_nav">
+                <li><a href="index.html" title="메인페이지 바로가기"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="회사소개 바로가기"></a>회사소개 <i class="fa-solid fa-sort-down"></i></li>
+                <li><a href="삼양식품 바로가기"></a>삼양식품 <i class="fa-solid fa-sort-down"></i></li>
+            </ul>
+
+            <!-- 인포메이션 -->
+            <ul class="info">
+                <li>회사소개</li>
+                <li>CEO 인사말</li>
+                <li>회사연혁</li>
+            </ul>
+
+            <!-- 인포메이션 아티클 -->
+            <article class="info_article">
+                <div class="info_img">
+                    <div class="square1">&nbsp;</div>
+                    <img src="./images/info_img1.png" alt="회사 옛사진">
+                    <img src="./images/info_img2.png" alt="회사 현재사진">
+                    <div class="square2">&nbsp;</div>
+                </div>
+
+                <div class="info_txt1">
+                    <p>삼양식품은 안전하고 건강한 먹거리를 만드는 <span>정직한 기업</span>, 
+                        사회로부터 <span>신뢰받는 기업</span>이 되기위해 최선의 노력을 다하겠습니다.
+                    </p>
+                </div>
+
+                <div class="info_txt2">
+                    <p>1961년 창업한 삼양식품은 ‘정직과 신용’의 창업정신으로 한국 식품산업의 새로운 영역을 개척하며 성장해왔습니다.
+                    </p>
+                </div>
+                <div class="info_txt3">
+                    <p>식품으로 인간 백세시대를 열겠다는 故전중윤 선대회장의 뜻을 이어받아<br>
+                        1960년대 식량난 극복과1970년대 식생활 개선에 앞장섰으며, 현재는 한국의 맛과 문화를 담은<br>
+                        제품으로 한국 식품의 우수성을 전 세계에 알리며 글로벌 종합식품기업으로 도약하고 있습니다.
+                    </p>
+                </div>
+                <div class="info_txt4">
+                    <p>삼양식품은 앞으로도 국경, 언어, 문화를 초월해 전 세계인의 입맛을 사로잡기 위한 도전을 멈추지 않을 것입니다.
+                    </p>
+                </div>
+            </article>
+        </main>
+        
+        <!-- 푸터 영역 시작 -->
+        <footer>
+            <div class="line"></div>
+            <div class="f_top">
+                <nav class="f_nav">
+                    <ul>
+                        <li><a href="#" title="고객만족센터">고객만족센터</a></li>
+                        <li><a href="#"  title="찾아오시는 길">찾아오시는 길</a></li>
+                        <li><a href="#"  title="개인정보처리방침">개인정보처리방침</a></li>
+                    </ul>
+                </nav>
+                <select name="fs" id="f_s" onchange="window.open(value,'_blank');">
+                    <option value="Family Site">Family Site</option>
+                    <option value="https://brand.naver.com/syfoodshop">삼양맛샵</option>
+                    <option value="https://www.samyangfarm.co.kr/">삼양목장</option>
+                    <option value="http://www.sy-igdream.or.kr/">삼양이건장학재단</option>
+                    <option value="http://www.samyangmotivef.or.kr/">삼양원동문화재단</option>
+                    <option value="http://www.samyanglogistics.co.kr/">삼양로지스틱스</option>
+                    <option value="http://samyangpruwell.com/">삼양푸르웰</option>
+                    <option value="http://samyangflour.com/">삼양제분</option>
+                </select>
+            </div>
+            <div class="f_bottom">
+                <address class="a1">
+                    <a href="index.html"><img src="./images/h1_footer_logo.png" alt="삼양로고"></a>
+                    <p>삼양식품(주) 서울특별시 성북구 오패산로3길 104(하월곡동)  &#124;  대표이사 : 김정수, 장재성<br>사업자등록번호 : 102-81-05450  &#124;   통신판매신고번호 : 2016-서울성북-0790 <br>
+                    고객만족센터 : 080-940-3333(무료상담전화) <br>
+                    대표전화 : 02-940-3000
+                    </p>
+                </address>
+
+                    <!-- tablet, mobile 해상도 어드레스 -->
+                <address class="a2">
+                    <a href="index.html"><img src="./images/h1_footer_logo.png" alt="삼양로고"></a>
+                    <p>삼양식품(주) 서울특별시 성북구 오패산로3길 104(하월곡동) <br>
+                    대표이사 : 김정수, 장재성<br>
+                    사업자등록번호 : 102-81-05450 <br>
+                    통신판매신고번호 : 2016-서울성북-0790 <br>
+                    고객만족센터 : 080-940-3333(무료상담전화) <br>
+                    대표전화 : 02-940-3000
+                    </p>
+                </address>
+
+                <!-- mobile 해상도 family site -->
+                <select name="fs2" id="f_s2" onchange="window.open(value,'_blank');">
+                    <option value="Family Site">Family Site</option>
+                    <option value="https://brand.naver.com/syfoodshop">삼양맛샵</option>
+                    <option value="https://www.samyangfarm.co.kr/">삼양목장</option>
+                    <option value="http://www.sy-igdream.or.kr/">삼양이건장학재단</option>
+                    <option value="http://www.samyangmotivef.or.kr/">삼양원동문화재단</option>
+                    <option value="http://www.samyanglogistics.co.kr/">삼양로지스틱스</option>
+                    <option value="http://samyangpruwell.com/">삼양푸르웰</option>
+                    <option value="http://samyangflour.com/">삼양제분</option>
+                </select>
+                <div class="f_copySns">
+                    <p>Copyright &copy; Samyang Foods Co., Ltd All Rights Reserved.</p>
+                    <ul>
+                        <li><a href="#" title="인스타바로가기" target="_blank"><img src="./images/ico_main4_sns2.png" alt="인스타"></a></li>
+                        <li><a href="#" title="유튜브바로가기" target="_blank"><img src="./images/ico_main4_sns1.png" alt="유튜브"></a></li>
+                        <li><a href="#" title="페이스북바로가기" target="_blank"><img src="./images/ico_main4_sns3.png" alt="페이스북"></a></li>
+                        <li><a href="#" title="블로그바로가기" target="_blank"><img src="./images/ico_main4_sns4.png" alt="블로그"></a></li>                    
+                    </ul>
+                </div><!--//f_CopySns end-->
+            </div><!--//f_bottom end-->           
+        </footer>
+    </form>
+</body>
+</html>

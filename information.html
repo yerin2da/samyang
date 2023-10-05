@@ -31,6 +31,9 @@
     <!-- 10. 접두사를 자동으로 붙여주는 스크립트 -->
     <link rel="stylesheet" href="./script/prefixfree.min.js">
 
+    <!-- 11. 회사소개 상세페이지 -->
+    <link rel="stylesheet" href="./css/info_pc.css" type="text/css">
+
 </head>
 <body>
     <!-- 검색폼 -->
@@ -70,7 +73,7 @@
                             <i class="fa-solid fa-circle-plus"></i>
                             </label>
                             <ul class="sub sub01">
-                                <li><a href="#" title="삼양식품">삼양식품</a></li>
+                                <li><a href="information.html" title="삼양식품">삼양식품</a></li>
                                 <li><a href="#" title="지주사">지주사</a></li>
                                 <li><a href="#" title="계열사">계열사</a></li>
                                 <li><a href="#" title="해외법인">해외법인</a></li>
@@ -143,61 +146,81 @@
         <!-- 메인 영역 시작 -->
         <main>
             <!-- 인포 소개 배경 영역 -->
-            <section>
-                <img src="./images/info_bg.jpg" alt="인포메이션 회사소개 배경이미지">
-                <article>
-                    <ul>
-                        <li>삼양식품(주)</li>
-                        <li>&#124;</li>
-                        <li><strong>회사소개</strong></li>
-                        <li>‘정직과 신용’이라는 창업정신을 바탕에 둔 삼양식품의 기업 활동을 소개합니다.</li>
+            <section class="info_sec">
+                <h2>인포 소개 배경 영역</h2>
+                <img src="./images/info_bg.jpg" alt="인포메이션 회사소개 배경이미지" class="bgimg1">
+                <article class="info_arti1">
+                    <h3>아티클1</h3>
+                    <ul class="bg_txt">
+                        <li class="t1">삼양식품(주)</li>
+                        <li class="t2">&#124;</li>
+                        <li class="t3"><strong>회사소개</strong></li>
+                        <li class="t4">‘정직과 신용’이라는 창업정신을 바탕에 둔 삼양식품의 기업 활동을 소개합니다.</li>
                     </ul>
-                    <img src="./images/info_ramen.png" alt="최초의 삼양라면">
+                <img src="./images/info_ramen.png" alt="최초의 삼양라면" class="bgimg2">
+                    
                 </article>
             </section>
 
             <!-- 인포메이션 내비 -->
-            <ul class="info_nav">
-                <li><a href="index.html" title="메인페이지 바로가기"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="회사소개 바로가기"></a>회사소개 <i class="fa-solid fa-sort-down"></i></li>
-                <li><a href="삼양식품 바로가기"></a>삼양식품 <i class="fa-solid fa-sort-down"></i></li>
-            </ul>
+            <section class="info_sec2">
+                <h2>섹션2</h2>
+                <article class="info_arti2">
+                    <h3>아티클2</h3>
+                    <ul class="info_nav">
+                        <li class="nbsp">&nbsp;</li>
+                        <li><a href="index.html" title="메인페이지 바로가기"><i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li class="nbsp">&nbsp;</li>
+                        <li><a href="회사소개 바로가기"></a>회사소개 <i class="fa-solid fa-sort-down"></i></li>
+                        <li class="nbsp">&nbsp;</li>
+                        <li><a href="삼양식품 바로가기"></a>삼양식품 <i class="fa-solid fa-sort-down"></i></li>
+                        <li class="nbsp">&nbsp;</li>
+                    </ul>
+                </article>
+            </section>
 
             <!-- 인포메이션 -->
-            <ul class="info">
-                <li>회사소개</li>
-                <li>CEO 인사말</li>
-                <li>회사연혁</li>
-            </ul>
+            <div class="info_border">
+                <ul class="info">
+                    <li>회사소개</li>
+                    <li>&#124;</li>
+                    <li>CEO 인사말</li>
+                    <li>&#124;</li>
+                    <li>회사연혁</li>
+                </ul>
+            </div>
+            
 
-            <!-- 인포메이션 아티클 -->
-            <article class="info_article">
+            <!-- 설명 -->
+            <article class="info_arti3">
                 <div class="info_img">
                     <div class="square1">&nbsp;</div>
-                    <img src="./images/info_img1.png" alt="회사 옛사진">
-                    <img src="./images/info_img2.png" alt="회사 현재사진">
+                    <img src="./images/info_img1.png" alt="회사 옛사진" class="arti3_img1">
+                    <img src="./images/info_img2.png" alt="회사 현재사진" class="arti3_img2">
                     <div class="square2">&nbsp;</div>
                 </div>
 
-                <div class="info_txt1">
-                    <p>삼양식품은 안전하고 건강한 먹거리를 만드는 <span>정직한 기업</span>, 
-                        사회로부터 <span>신뢰받는 기업</span>이 되기위해 최선의 노력을 다하겠습니다.
-                    </p>
-                </div>
+                <div class="info_txt">
+                    <div class="info_txt1">
+                        <p>삼양식품은 안전하고 건강한 먹거리를 만드는 <span>정직한 기업</span>, <br>
+                            사회로부터 <span>신뢰받는 기업</span>이 되기위해 최선의 노력을 다하겠습니다.
+                        </p>
+                    </div>
 
-                <div class="info_txt2">
-                    <p>1961년 창업한 삼양식품은 ‘정직과 신용’의 창업정신으로 한국 식품산업의 새로운 영역을 개척하며 성장해왔습니다.
-                    </p>
-                </div>
-                <div class="info_txt3">
-                    <p>식품으로 인간 백세시대를 열겠다는 故전중윤 선대회장의 뜻을 이어받아<br>
-                        1960년대 식량난 극복과1970년대 식생활 개선에 앞장섰으며, 현재는 한국의 맛과 문화를 담은<br>
-                        제품으로 한국 식품의 우수성을 전 세계에 알리며 글로벌 종합식품기업으로 도약하고 있습니다.
-                    </p>
-                </div>
-                <div class="info_txt4">
-                    <p>삼양식품은 앞으로도 국경, 언어, 문화를 초월해 전 세계인의 입맛을 사로잡기 위한 도전을 멈추지 않을 것입니다.
-                    </p>
+                    <div class="i_txt info_txt2">
+                        <p>1961년 창업한 삼양식품은 ‘정직과 신용’의 창업정신으로 한국 식품산업의 새로운 영역을 개척하며 성장해왔습니다.
+                        </p>
+                    </div>
+                    <div class="i_txt info_txt3">
+                        <p>식품으로 인간 백세시대를 열겠다는 故전중윤 선대회장의 뜻을 이어받아<br>
+                            1960년대 식량난 극복과1970년대 식생활 개선에 앞장섰으며, 현재는 한국의 맛과 문화를 담은<br>
+                            제품으로 한국 식품의 우수성을 전 세계에 알리며 글로벌 종합식품기업으로 도약하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="i_txt info_txt4">
+                        <p>삼양식품은 앞으로도 국경, 언어, 문화를 초월해 전 세계인의 입맛을 사로잡기 위한 도전을 멈추지 않을 것입니다.
+                        </p>
+                    </div>
                 </div>
             </article>
         </main>

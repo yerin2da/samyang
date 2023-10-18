@@ -43,7 +43,7 @@
 
     /* 인포메이션 내비 */
     .info_arti2{
-        width: 100%;
+        width: 100%;height: 55px;
         background: #A2A2A2;
         color: #fff;
     }
@@ -55,9 +55,15 @@
     .info_nav>li{
         font-size: 15px;
         padding:20px;
+        cursor: pointer;
     }
+    .info_nav>.nav_1{
+        width: 80px;
+        position: relative;
+    }
+
     i.fa-sort-down{
-        padding-left: 10px;
+        padding-left: 15px;
     }
     .info_nav>.nbsp{
         width: 1px;
@@ -70,6 +76,28 @@
     i.fa-house-chimney{
         font-size: 20px;
     }
+    .info_nav_1{
+        position: absolute;
+        left: 0;top: 55px;
+        padding: 20px;
+        z-index: 999;
+        background: #fff;
+        width: 80px;
+        border: 1px solid #A2A2A2;
+        border-top: none;
+        display: none;
+    }
+    .info_nav_1>li{
+        padding: 10px 0px;
+    }
+    .info_nav_1>li:hover a{
+        color: #A2A2A2;
+    }
+    
+    .info_nav_1>li>a{
+        color: #333;
+    }
+
 
     /* 인포메이션 */
     .info_border{
@@ -87,6 +115,13 @@
     .info>li{
         padding: 35px 80px;
     }
+    .info_bd_click{
+        color: #ff6a00 !important;
+    }
+    .info>.nav_c>a{
+        color: #ff6a00;
+    }
+
 
     /* 설명 */
     .info_arti3{

@@ -23,16 +23,19 @@
     <link rel="stylesheet" href="./css/mobile.css" type="text/css">
     <!-- 7. 아이콘폰트 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css">
-    <!-- 8. 스와이퍼 -->
-    <link rel="stylesheet" href="./css/swiper.css" type="text/css">
-    <!-- 9. 제이쿼리 -->
-	<script src="./script/swiper.js"></script>
 
     <!-- 10. 접두사를 자동으로 붙여주는 스크립트 -->
     <link rel="stylesheet" href="./script/prefixfree.min.js">
 
     <!-- 11. 회사소개 상세페이지 -->
     <link rel="stylesheet" href="./css/info_pc.css" type="text/css">
+
+    <!-- 12. 제이쿼리 라이브러리 cdn방식-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <!-- 13. 회사소개 상세페이지 스크립트 -->
+    <script src="./script/info.js"></script>
+
 
 </head>
 <body>
@@ -171,9 +174,25 @@
                         <li class="nbsp">&nbsp;</li>
                         <li><a href="index.html" title="메인페이지 바로가기"><i class="fa-solid fa-house-chimney"></i></a></li>
                         <li class="nbsp">&nbsp;</li>
-                        <li><a href="회사소개 바로가기"></a>회사소개 <i class="fa-solid fa-sort-down"></i></li>
+                        <li class="nav_1"><a href="회사소개 바로가기"></a>회사소개<i class="fa-solid fa-sort-down"></i>
+                            <ul class="info_nav_1 nav_1-1">
+                                <li><a href="#">삼양식품</a></li>
+                                <li><a href="#">홍보관</a></li>
+                                <li><a href="#">지속가능경영</a></li>
+                                <li><a href="#">제품</a></li>
+                                <li><a href="#">고객지원</a></li>
+                            </ul>
+                        </li>
                         <li class="nbsp">&nbsp;</li>
-                        <li><a href="삼양식품 바로가기"></a>삼양식품 <i class="fa-solid fa-sort-down"></i></li>
+                        <li class="nav_1"><a href="삼양식품 바로가기"></a>삼양식품<i class="fa-solid fa-sort-down"></i>
+                            <ul class="info_nav_1 nav_2">
+                                <li><a href="#">삼양식품</a></li>
+                                <li><a href="#">지주사</a></li>
+                                <li><a href="#">계열사</a></li>
+                                <li><a href="#">해외법인</a></li>
+                                <li><a href="#">공장</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul></li>
                         <li class="nbsp">&nbsp;</li>
                     </ul>
                 </article>
@@ -182,11 +201,11 @@
             <!-- 인포메이션 -->
             <div class="info_border">
                 <ul class="info">
-                    <li>회사소개</li>
+                    <li class="nav_c"><a href="information.html" title="회사소개">회사소개</a></li>
                     <li>&#124;</li>
-                    <li>CEO 인사말</li>
+                    <li><a href="#" title="CEO 인사말">CEO 인사말</a></li>
                     <li>&#124;</li>
-                    <li>회사연혁</li>
+                    <li><a href="#" title="회사연혁">회사연혁</a></li>
                 </ul>
             </div>
             

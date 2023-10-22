@@ -103,6 +103,7 @@ i.fa-house-chimney{
 }
 .info_nav_1>li{
     padding: 10px 0px;
+    display: block;
 }
 
 .info_nav_1>li>a{

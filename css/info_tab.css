@@ -1,22 +1,22 @@
 @charset "utf-8";
-/* information 상세페이지 - pc해상도 info_pc.css */
-@media screen and (min-width:1025px){
+/*  information 상세페이지 tablet해상도 info_tab.css */
+
+@media screen and (min-width:768px) and (max-width:1024px){
     /* 인포 소개 배경 영역*/
-    h2,h3{
-        display: none;
-    }
     .info_sec{
+        position: relative;
         width: 100%;
         height: 450px;
-        position: relative;
     }
     .info_sec>.bgimg1{
         width: 100%;
         height: 100%;
     }
-
+    h2,h3{
+        display: none;
+    }
     .info_arti1{
-        width: 1200px;
+        width: 100%;
         text-align: center;
         color: #fff;
         position: absolute;
@@ -27,34 +27,35 @@
         padding-bottom: 10px;
     }
     .t1{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .t3{
-        font-size: 35px;
+        font-size: 2.1875rem;
         padding-bottom: 30px !important;
     }
     .t4{
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
     .bgimg2{
-        width: 250px;
-        position: absolute;top: -50px;right: 0;
+        display: none;
     }
+
 
     /* 인포메이션 내비 */
     .info_arti2{
-        width: 100%;height: 55px;
+        width: 100%;
+        height: 55px;
         background: #A2A2A2;
         color: #fff;
     }
     .info_nav{
-        width: 1200px;
+        width: 100%;
         margin: 0px auto;
         display: flex;
     }
     .info_nav>li{
-        font-size: 15px;
-        padding:20px;
+        font-size: 0.9375rem;
+        padding: 20px;
         cursor: pointer;
     }
     .info_nav>.nav_1{
@@ -67,14 +68,23 @@
     }
     .info_nav>.nbsp{
         width: 1px;
+        height: 55px;
         background: #fff;
         padding: 0px !important;
     }
+    .info_nav>li:nth-child(5){
+        display: block;
+    }
+
+    .nbsp1{
+        display: none;
+    }
+    
     .info_arti2 a{
         color: #fff;
     }
     i.fa-house-chimney{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .info_nav_1{
         position: absolute;
@@ -90,30 +100,30 @@
     .info_nav_1>li{
         padding: 10px 0px;
     }
-    .info_nav_1>li:hover a{
-        color: #A2A2A2;
-    }
-    
+
     .info_nav_1>li>a{
         color: #333;
     }
 
 
-    /* 인포메이션 */
+     /* 인포메이션 */
     .info_border{
         width: 100%;
         border-bottom: 1px solid #A2A2A2;
     }
     .info{
-        width: 1200px;
+        width: 100%;
         margin: 0px auto;
         display: flex;
         justify-content: center;
         color: #333;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .info>li{
-        padding: 35px 80px;
+        padding: 35px 10px;
+    }
+    .info>li:last-child{
+        display: block;
     }
     .info_bd_click{
         color: #ff6a00 !important;
@@ -122,57 +132,42 @@
         color: #ff6a00;
     }
 
-
+    
     /* 설명 */
     .info_arti3{
-        width: 1200px;
+        width: 90%;
         height: 1170px;
         margin: 0px auto;
-        position: relative;
     }
     .info_img{
-        width: 1200px;
-        position: absolute;
-        top: 50px;
-        background: red;
+        width: 100%;
+        padding-top: 100px;
+        position: relative;
     }
     .square1{
-        width: 70px;
-        height: 70px;
-        background: #FF8D3C;
-        position: absolute;
-        left: 600px;
-        z-index: 1;
+        display: none;
     }
     .arti3_img1{
-        width: 700px;
-        position: absolute;
-        top: 35px;
+        width: 75%;
     }
     .arti3_img2{
-        width: 500px;
+        width: 55%;
         position: absolute;
-        top: 220px;
-        right: 60px;
+        top: 300px;
+        right: 0%;
     }
     .square2{
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        background: #ff6a00;
-        right: 0;
-        top: 480px;
+        display: none;
     }
 
     .info_txt{
-        width: 1200px;
-        position: absolute;
-        top: 720px;
+        width: 100%;
         margin: 0px auto;
         text-align: center;
+        padding-top: 150px;
     }
     .info_txt1{
-        font-size: 30px;
+        font-size: 1.5rem;
         padding-bottom: 60px;
         line-height: 45px;
     }
@@ -180,7 +175,7 @@
         color: #ff6a00;
     }
     .i_txt{
-        font-size: 18px;
+        font-size: 0.9rem;
         line-height: 40px;
 
     }
@@ -191,4 +186,5 @@
         padding-bottom: 30px;
 
     }
+
 }

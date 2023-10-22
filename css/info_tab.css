@@ -2,6 +2,9 @@
 /*  information 상세페이지 tablet해상도 info_tab.css */
 
 @media screen and (min-width:768px) and (max-width:1024px){
+    .mob_info_txt{
+        display: none;
+    }
     /* 인포 소개 배경 영역*/
     .info_sec{
         position: relative;

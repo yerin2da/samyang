@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* information 상세페이지 - pc해상도 info_pc.css */
 @media screen and (min-width:1025px){
+    .mob_info_txt{
+        display: none;
+    }
     /* 인포 소개 배경 영역*/
     h2,h3{
         display: none;

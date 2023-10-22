@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* info_mob.css서식 */
+@media screen and (max-width:767px){
+ /* 인포 소개 배경 영역*/
+ .info_sec{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.info_sec>.bgimg1{
+    width: 100%;
+    height: 100%;
+}
+h2,h3{
+    display: none;
+}
+.info_arti1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info_arti1>ul>li{
+    padding-bottom: 10px;
+}
+.t1{
+    font-size: 1.125rem;
+}
+.t3{
+    font-size: 2.1875rem;
+    padding-bottom: 30px !important;
+}
+.t4{
+    font-size: 0.9375rem;
+}
+.bgimg2{
+    display: none;
+}
+
+
+/* 인포메이션 내비 */
+.info_arti2{
+    width: 100%;
+    height: 55px;
+    background: #A2A2A2;
+    color: #fff;
+}
+.info_nav{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+}
+.info_nav>li{
+    font-size: 0.9375rem;
+    padding: 20px;
+    cursor: pointer;
+}
+.nbsp1{
+    display: none;
+}
+.info_nav>.nav_1{
+    display: block;
+    width: 80px;
+    position: relative;
+}
+
+i.fa-sort-down{
+    padding-left: 15px;
+}
+.info_nav>.nbsp{
+    width: 1px;
+    height: 55px;
+    background: #fff;
+    padding: 0px !important;
+}
+.info_nav>li:nth-child(5){
+    display: block;
+}
+
+
+
+.info_arti2 a{
+    color: #fff;
+}
+i.fa-house-chimney{
+    font-size: 1.25rem;
+}
+.info_nav_1{
+    position: absolute;
+    left: -1px;top: 55px;
+    padding: 20px;
+    z-index: 999;
+    background: #fff;
+    width: 80px;
+    border: 1px solid #A2A2A2;
+    border-top: none;
+    display: none;
+}
+.info_nav_1>li{
+    padding: 10px 0px;
+}
+
+.info_nav_1>li>a{
+    color: #333;
+}
+
+
+ /* 인포메이션 */
+.info_border{
+    width: 100%;
+    border-bottom: 1px solid #A2A2A2;
+}
+.info{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    font-size: 1.125rem;
+}
+.info>li{
+    display: block;
+    padding: 35px 10px;
+}
+.info>li:last-child{
+    display: block;
+}
+.info_bd_click{
+    color: #ff6a00 !important;
+}
+.info>.nav_c>a{
+    color: #ff6a00;
+}
+
+
+/* 설명 */
+.info_arti3{
+    width: 90%;
+    height: 1170px;
+    margin: 0px auto;
+}
+.info_img{
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+.square1{
+    display: none;
+}
+.arti3_img1{
+    width: 75%;
+}
+.arti3_img2{
+    width: 55%;
+    position: absolute;
+    top: 300px;
+    right: 0%;
+}
+.square2{
+    display: none;
+}
+
+.info_txt{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.info_txt1{
+    font-size: 1rem;
+    padding-bottom: 60px;
+    line-height: 45px;
+}
+.info_txt1 span{
+    color: #ff6a00;
+}
+.i_txt{
+    font-size: 0.7rem;
+    line-height: 40px;
+
+}
+.info_txt2{
+    padding-bottom: 30px;
+}
+.info_txt3{
+    padding-bottom: 30px;
+
+}
+}

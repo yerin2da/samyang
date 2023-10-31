@@ -143,6 +143,7 @@ i.fa-house-chimney{
 
 
 /* 설명 */
+    /* 회사소개 */
 .info_arti3{
     width: 90%;
     height: 1170px;
@@ -185,6 +186,40 @@ i.fa-house-chimney{
 }
 .info_txt3{
     padding-bottom: 30px;
+}
 
+ /* ceo인사말 */
+    .info_arti4{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    position: relative;
+}
+.info_arti4>li{
+    width: 70%;
+}
+.info_arti4>li>img{
+    position: absolute;
+    right: 0;top: 170px;
+    width: 25%;
+}
+.arti4_txt>li{
+    padding-bottom: 30px;
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: #818181;
+}
+.arti4_txt1{
+    font-size: 1.875rem !important;
+    line-height: 50px !important;
+    padding-bottom: 60px !important;
+    color: #333 !important;
+}
+.arti4_txt1>span{
+    color: #ff6a00;
+}
+.arti4_txt2{
+    font-size: 1.125rem !important;
+    color: #333 !important;
 }
 }

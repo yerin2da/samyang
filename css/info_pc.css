@@ -127,7 +127,7 @@
     .info>.nav_c>a{
         color: #ff6a00;
     }
-
+ 
 
     /* 설명 */
     .info_arti3{
@@ -188,13 +188,47 @@
     .i_txt{
         font-size: 18px;
         line-height: 40px;
-
     }
     .info_txt2{
         padding-bottom: 30px;
     }
     .info_txt3{
         padding-bottom: 30px;
+    }
+
+    .info_arti4{
+        width: 1200px;
+        margin: 50px auto;
+        display: flex;
+        position: relative;
+    }
+    .info_arti4>li{
+        width: 950px;
+    }
+    .info_arti4>li>img{
+        position: absolute;
+        right: 0;top: 130px;
+        width: 250px;
+    }
+    .arti4_txt>li{
+        padding-bottom: 30px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #818181;
 
     }
+    .arti4_txt1{
+        font-size: 30px !important;
+        line-height: 50px !important;
+        padding-bottom: 60px !important;
+        color: #333 !important;
+    }
+    .arti4_txt1>span{
+        color: #ff6a00;
+    }
+    .arti4_txt2{
+        font-size: 18px !important;
+        color: #333 !important;
+    }
+
 }

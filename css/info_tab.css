@@ -206,7 +206,7 @@
         font-size: 0.9rem;
         line-height: 25px;
         color: #818181;
-
+        display: block;
     }
     .arti4_txt1{
         font-size: 1.875rem !important;
@@ -222,9 +222,6 @@
         color: #333 !important;
         text-align: right;
         padding-top: 10px;
-    }
-    .arti4_txt>li:nth-child(5), .arti4_txt>li:nth-child(6){
-        display: block;
     }
 
 }

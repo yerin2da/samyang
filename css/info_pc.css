@@ -7,6 +7,9 @@
     .mob_arti_img{
         display: none;
     }
+    .arti4_mob{
+        display: none !important;
+    }
     /* 인포 소개 배경 영역*/
     h2,h3{
         display: none;

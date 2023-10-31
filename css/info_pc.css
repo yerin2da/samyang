@@ -127,9 +127,10 @@
     .info>.nav_c>a{
         color: #ff6a00;
     }
- 
+
 
     /* 설명 */
+        /* 회사소개 */
     .info_arti3{
         width: 1200px;
         height: 1170px;
@@ -196,6 +197,7 @@
         padding-bottom: 30px;
     }
 
+        /* ceo 인사말 */
     .info_arti4{
         width: 1200px;
         margin: 50px auto;
@@ -207,7 +209,7 @@
     }
     .info_arti4>li>img{
         position: absolute;
-        right: 0;top: 130px;
+        right: 0;top: 170px;
         width: 250px;
     }
     .arti4_txt>li{

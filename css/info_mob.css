@@ -172,7 +172,7 @@ i.fa-house-chimney{
     padding-top: 100px;
 }
 .info_txt1{
-    font-size: 1rem;
+    font-size: 1.6rem;
     padding-bottom: 60px;
     line-height: 45px;
 }
@@ -180,9 +180,9 @@ i.fa-house-chimney{
     color: #ff6a00;
 }
 .i_txt{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 30px;
-
+    color: #818181;
 }
 .info_txt2{
     padding-bottom: 30px;

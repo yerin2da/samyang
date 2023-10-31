@@ -168,7 +168,7 @@
         padding-top: 150px;
     }
     .info_txt1{
-        font-size: 1.5rem;
+        font-size: 1.875rem;
         padding-bottom: 60px;
         line-height: 45px;
     }
@@ -178,6 +178,8 @@
     .i_txt{
         font-size: 0.9rem;
         line-height: 40px;
+        color: #818181;
+
     }
     .info_txt2{
         padding-bottom: 30px;

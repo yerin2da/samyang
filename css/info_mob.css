@@ -191,11 +191,10 @@ i.fa-house-chimney{
     padding-bottom: 30px;
 }
 
- /* ceo인사말 */
-    .info_arti4{
+  /* ceo인사말 */
+  .info_arti4{
     width: 90%;
     margin: 50px auto;
-    display: flex;
     position: relative;
 }
 .info_arti4>li{
@@ -203,12 +202,14 @@ i.fa-house-chimney{
 }
 .info_arti4>li>img{
     width: 100%;
+
 }
 .arti4_txt>li{
     padding-bottom: 30px;
     font-size: 0.9rem;
     line-height: 25px;
     color: #818181;
+
 }
 .arti4_txt1{
     font-size: 1.875rem !important;
@@ -224,6 +225,8 @@ i.fa-house-chimney{
     color: #333 !important;
     text-align: right;
     padding-top: 10px;
-
+}
+.arti4_txt>li:nth-child(5), .arti4_txt>li:nth-child(6){
+    display: block;
 }
 }

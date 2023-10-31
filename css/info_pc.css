@@ -4,6 +4,9 @@
     .mob_info_txt{
         display: none;
     }
+    .mob_arti_img{
+        display: none;
+    }
     /* 인포 소개 배경 영역*/
     h2,h3{
         display: none;

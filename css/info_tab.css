@@ -5,6 +5,9 @@
     .mob_info_txt{
         display: none;
     }
+    .pc_arti_img{
+        display: none;
+    }
     /* 인포 소개 배경 영역*/
     .info_sec{
         position: relative;
@@ -150,18 +153,10 @@
     .square1{
         display: none;
     }
-    .arti3_img1{
-        width: 75%;
+    .arti3_img3{
+        width: 100%;
     }
-    .arti3_img2{
-        width: 55%;
-        position: absolute;
-        top: 300px;
-        right: 0%;
-    }
-    .square2{
-        display: none;
-    }
+
 
     .info_txt{
         width: 100%;

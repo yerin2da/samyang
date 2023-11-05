@@ -221,7 +221,27 @@ i.fa-house-chimney{
     padding-top: 10px;
 }
 
-    /* CI */
+/* ci */
+.ci{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.ci>li>img{
+    width: 100%;
+}
+.ci>li:first-child{
+    font-size: 1.875rem !important;
+    line-height: 50px !important;
+    padding-bottom: 30px !important;
+    color: #ff6a00 !important;
+}
+.ci>li{
+    padding-bottom: 30px;
+    font-size: 1.125rem !important;
+    line-height: 30px;
+    color: #333;
+}
 
 
 }

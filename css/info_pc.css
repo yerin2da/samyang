@@ -236,15 +236,23 @@
         color: #333 !important;
     }
 
+    /* ci */
     .ci{
         width: 1200px;
         margin: 50px auto;
         text-align: center;
     }
     .ci>li:first-child{
-        font-size: 30px;
-        color: #ff6a00;
-
+        font-size: 30px !important;
+        line-height: 50px !important;
+        padding-bottom: 30px !important;
+        color: #ff6a00 !important;
+    }
+    .ci>li{
+        padding-bottom: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        color: #333;
     }
 
 }

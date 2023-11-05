@@ -50,12 +50,6 @@ h2,h3{
 
 
 /* 인포메이션 내비 */
-.info_arti2{
-    width: 100%;
-    height: 55px;
-    background: #A2A2A2;
-    color: #fff;
-}
 .info_nav{
     width: 100%;
     margin: 0px auto;
@@ -192,7 +186,7 @@ i.fa-house-chimney{
 }
 
   /* ceo인사말 */
-  .info_arti4{
+    .info_arti4{
     width: 90%;
     margin: 50px auto;
     position: relative;
@@ -226,5 +220,8 @@ i.fa-house-chimney{
     text-align: right;
     padding-top: 10px;
 }
+
+    /* CI */
+
 
 }

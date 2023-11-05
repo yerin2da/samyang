@@ -53,7 +53,7 @@
     /* 인포메이션 내비 */
     .info_arti2{
         width: 100%;height: 55px;
-        background: #A2A2A2;
+        background: #c9c7c7;
         color: #fff;
     }
     .info_nav{
@@ -234,6 +234,17 @@
     .arti4_txt2{
         font-size: 18px !important;
         color: #333 !important;
+    }
+
+    .ci{
+        width: 1200px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .ci>li:first-child{
+        font-size: 30px;
+        color: #ff6a00;
+
     }
 
 }

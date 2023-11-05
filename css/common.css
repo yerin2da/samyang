@@ -140,6 +140,16 @@ input[type=radio]:checked + label[for*=tab]{
 #tab04:checked ~ .blog{display: flex;}
 .button > a{display: block;}
 
+
+
+/* 상세페이지 information */
+     /* 인포메이션 내비 */
+     .info_arti2{
+        width: 100%;height: 55px;
+        background: #c9c7c7;
+        color: #fff;
+    }
+
 /* 푸터서식 */
 footer{
     background: #333;

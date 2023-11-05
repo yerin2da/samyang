@@ -27,17 +27,24 @@ $(document).ready(function(){
     });
 
     $('.info_arti4').css('display','none');
+    $('.info_arti5').css('display','none');
 
     $('.info>.nav_c').click(function(){
         $('.info_arti3').css('display','block');
         $('.info_arti4').css('display','none');
+        $('.info_arti5').css('display','none');
 
     });
 
     $('.info>.nav_d').click(function(){
         $('.info_arti4').css('display','block');
         $('.info_arti3').css('display','none');
+        $('.info_arti5').css('display','none');
+    });
 
-
+    $('.info>.nav_e').click(function(){
+        $('.info_arti5').css('display','block');
+        $('.info_arti3').css('display','none');
+        $('.info_arti4').css('display','none');
     });
 });
